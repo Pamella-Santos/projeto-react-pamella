@@ -5,7 +5,14 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/img",
+    "splash": {
+      "image": "./assets/img",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    }
   },
   "name": "exercicio"
 }
