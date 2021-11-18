@@ -24,8 +24,8 @@ app.post("/login", async (req, res) => {
 
 /* app.get("/create", async (req, res) => {
   let create = await user.create({
-    name: "Pedro",
-    password: "123abc",
+    name: "Hendrix",
+    password: "123456",
     createdAt: new Date(),
     updatedAt: new Date()
   });
@@ -52,8 +52,7 @@ app.get("/delete", async (req, res) => {
   user.destroy({
     where: { id: 2 }
   });
-});
-*/
+}); */
 
 let port = process.env.PORT || 3000;
 app.listen(port, (req, res) => {
